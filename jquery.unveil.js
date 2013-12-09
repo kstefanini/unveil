@@ -23,7 +23,7 @@
       var source = this.getAttribute(attrib);
       source = source || this.getAttribute("data-src");
       if (source) {
-        if (this.tagName === "img") {
+        if (this.tagName === "IMG") {
           this.setAttribute("src", source);
         } else {
           this.style["backgroundImage"] = "url('" + source + "')";
